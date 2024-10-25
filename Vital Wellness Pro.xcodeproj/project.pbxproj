@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C45782642C02C33B00EBD728 /* VitalWellnessPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782632C02C33B00EBD728 /* VitalWellnessPro.swift */; };
+		C45782662C02C33B00EBD728 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782652C02C33B00EBD728 /* ContentView.swift */; };
+		C45782682C02C33C00EBD728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45782672C02C33C00EBD728 /* Assets.xcassets */; };
+		C457826B2C02C33C00EBD728 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C457826A2C02C33C00EBD728 /* Preview Assets.xcassets */; };
+		C45782752C02C33C00EBD728 /* Fitness___NutritionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782742C02C33C00EBD728 /* Fitness___NutritionTests.swift */; };
+		C457827F2C02C33C00EBD728 /* Fitness___NutritionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457827E2C02C33C00EBD728 /* Fitness___NutritionUITests.swift */; };
+		C45782812C02C33C00EBD728 /* Fitness___NutritionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782802C02C33C00EBD728 /* Fitness___NutritionUITestsLaunchTests.swift */; };
+		C457828E2C02C52B00EBD728 /* FitnessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457828D2C02C52B00EBD728 /* FitnessView.swift */; };
+		C45782902C02C54700EBD728 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C457828F2C02C54700EBD728 /* NutritionView.swift */; };
+		C45782922C02C55D00EBD728 /* UserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782912C02C55D00EBD728 /* UserInfoView.swift */; };
+		C45782942C02CFD900EBD728 /* WorkoutCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782932C02CFD900EBD728 /* WorkoutCreationView.swift */; };
+		C45782972C02DF0E00EBD728 /* ExerciseGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782962C02DF0E00EBD728 /* ExerciseGroups.swift */; };
+		C45782992C02E4E500EBD728 /* WorkoutDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45782982C02E4E500EBD728 /* WorkoutDetailView.swift */; };
+		C45A74842C1FFDA000979EC7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A74832C1FFDA000979EC7 /* DataManager.swift */; };
+		C45A74862C1FFDEF00979EC7 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A74852C1FFDEF00979EC7 /* Models.swift */; };
+		C45A74882C20039F00979EC7 /* ExerciseSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45A74872C20039F00979EC7 /* ExerciseSelectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C45782712C02C33C00EBD728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45782582C02C33B00EBD728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C457825F2C02C33B00EBD728;
+			remoteInfo = "Fitness + Nutrition";
+		};
+		C457827B2C02C33C00EBD728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C45782582C02C33B00EBD728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C457825F2C02C33B00EBD728;
+			remoteInfo = "Fitness + Nutrition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C45782602C02C33B00EBD728 /* Vital Wellness Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vital Wellness Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45782632C02C33B00EBD728 /* VitalWellnessPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalWellnessPro.swift; sourceTree = "<group>"; };
+		C45782652C02C33B00EBD728 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C45782672C02C33C00EBD728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C457826A2C02C33C00EBD728 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C45782702C02C33C00EBD728 /* Vital Wellness ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vital Wellness ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45782742C02C33C00EBD728 /* Fitness___NutritionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fitness___NutritionTests.swift"; sourceTree = "<group>"; };
+		C457827A2C02C33C00EBD728 /* Vital Wellness ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Vital Wellness ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C457827E2C02C33C00EBD728 /* Fitness___NutritionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fitness___NutritionUITests.swift"; sourceTree = "<group>"; };
+		C45782802C02C33C00EBD728 /* Fitness___NutritionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fitness___NutritionUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		C457828D2C02C52B00EBD728 /* FitnessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessView.swift; sourceTree = "<group>"; };
+		C457828F2C02C54700EBD728 /* NutritionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		C45782912C02C55D00EBD728 /* UserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoView.swift; sourceTree = "<group>"; };
+		C45782932C02CFD900EBD728 /* WorkoutCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCreationView.swift; sourceTree = "<group>"; };
+		C45782952C02DCD500EBD728 /* Notes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Notes.md; sourceTree = "<group>"; };
+		C45782962C02DF0E00EBD728 /* ExerciseGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseGroups.swift; sourceTree = "<group>"; };
+		C45782982C02E4E500EBD728 /* WorkoutDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetailView.swift; sourceTree = "<group>"; };
+		C45A74832C1FFDA000979EC7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C45A74852C1FFDEF00979EC7 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C45A74872C20039F00979EC7 /* ExerciseSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseSelectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C457825D2C02C33B00EBD728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C457826D2C02C33C00EBD728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45782772C02C33C00EBD728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C45782572C02C33B00EBD728 = {
+			isa = PBXGroup;
+			children = (
+				C45782952C02DCD500EBD728 /* Notes.md */,
+				C45782622C02C33B00EBD728 /* Fitness + Nutrition */,
+				C45782732C02C33C00EBD728 /* Fitness + NutritionTests */,
+				C457827D2C02C33C00EBD728 /* Fitness + NutritionUITests */,
+				C45782612C02C33B00EBD728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45782612C02C33B00EBD728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45782602C02C33B00EBD728 /* Vital Wellness Pro.app */,
+				C45782702C02C33C00EBD728 /* Vital Wellness ProTests.xctest */,
+				C457827A2C02C33C00EBD728 /* Vital Wellness ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45782622C02C33B00EBD728 /* Fitness + Nutrition */ = {
+			isa = PBXGroup;
+			children = (
+				C45782632C02C33B00EBD728 /* VitalWellnessPro.swift */,
+				C45782652C02C33B00EBD728 /* ContentView.swift */,
+				C45A74832C1FFDA000979EC7 /* DataManager.swift */,
+				C45782962C02DF0E00EBD728 /* ExerciseGroups.swift */,
+				C45A74872C20039F00979EC7 /* ExerciseSelectionView.swift */,
+				C457828D2C02C52B00EBD728 /* FitnessView.swift */,
+				C45A74852C1FFDEF00979EC7 /* Models.swift */,
+				C457828F2C02C54700EBD728 /* NutritionView.swift */,
+				C45782912C02C55D00EBD728 /* UserInfoView.swift */,
+				C45782932C02CFD900EBD728 /* WorkoutCreationView.swift */,
+				C45782982C02E4E500EBD728 /* WorkoutDetailView.swift */,
+				C45782672C02C33C00EBD728 /* Assets.xcassets */,
+				C45782692C02C33C00EBD728 /* Preview Content */,
+			);
+			path = "Fitness + Nutrition";
+			sourceTree = "<group>";
+		};
+		C45782692C02C33C00EBD728 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C457826A2C02C33C00EBD728 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C45782732C02C33C00EBD728 /* Fitness + NutritionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C45782742C02C33C00EBD728 /* Fitness___NutritionTests.swift */,
+			);
+			path = "Fitness + NutritionTests";
+			sourceTree = "<group>";
+		};
+		C457827D2C02C33C00EBD728 /* Fitness + NutritionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C457827E2C02C33C00EBD728 /* Fitness___NutritionUITests.swift */,
+				C45782802C02C33C00EBD728 /* Fitness___NutritionUITestsLaunchTests.swift */,
+			);
+			path = "Fitness + NutritionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C457825F2C02C33B00EBD728 /* Vital Wellness Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45782842C02C33C00EBD728 /* Build configuration list for PBXNativeTarget "Vital Wellness Pro" */;
+			buildPhases = (
+				C457825C2C02C33B00EBD728 /* Sources */,
+				C457825D2C02C33B00EBD728 /* Frameworks */,
+				C457825E2C02C33B00EBD728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vital Wellness Pro";
+			productName = "Fitness + Nutrition";
+			productReference = C45782602C02C33B00EBD728 /* Vital Wellness Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C457826F2C02C33C00EBD728 /* Vital Wellness ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45782872C02C33C00EBD728 /* Build configuration list for PBXNativeTarget "Vital Wellness ProTests" */;
+			buildPhases = (
+				C457826C2C02C33C00EBD728 /* Sources */,
+				C457826D2C02C33C00EBD728 /* Frameworks */,
+				C457826E2C02C33C00EBD728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C45782722C02C33C00EBD728 /* PBXTargetDependency */,
+			);
+			name = "Vital Wellness ProTests";
+			productName = "Fitness + NutritionTests";
+			productReference = C45782702C02C33C00EBD728 /* Vital Wellness ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C45782792C02C33C00EBD728 /* Vital Wellness ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C457828A2C02C33C00EBD728 /* Build configuration list for PBXNativeTarget "Vital Wellness ProUITests" */;
+			buildPhases = (
+				C45782762C02C33C00EBD728 /* Sources */,
+				C45782772C02C33C00EBD728 /* Frameworks */,
+				C45782782C02C33C00EBD728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C457827C2C02C33C00EBD728 /* PBXTargetDependency */,
+			);
+			name = "Vital Wellness ProUITests";
+			productName = "Fitness + NutritionUITests";
+			productReference = C457827A2C02C33C00EBD728 /* Vital Wellness ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45782582C02C33B00EBD728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C457825F2C02C33B00EBD728 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C457826F2C02C33C00EBD728 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C457825F2C02C33B00EBD728;
+					};
+					C45782792C02C33C00EBD728 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C457825F2C02C33B00EBD728;
+					};
+				};
+			};
+			buildConfigurationList = C457825B2C02C33B00EBD728 /* Build configuration list for PBXProject "Vital Wellness Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45782572C02C33B00EBD728;
+			productRefGroup = C45782612C02C33B00EBD728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C457825F2C02C33B00EBD728 /* Vital Wellness Pro */,
+				C457826F2C02C33C00EBD728 /* Vital Wellness ProTests */,
+				C45782792C02C33C00EBD728 /* Vital Wellness ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C457825E2C02C33B00EBD728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C457826B2C02C33C00EBD728 /* Preview Assets.xcassets in Resources */,
+				C45782682C02C33C00EBD728 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C457826E2C02C33C00EBD728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45782782C02C33C00EBD728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C457825C2C02C33B00EBD728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45782972C02DF0E00EBD728 /* ExerciseGroups.swift in Sources */,
+				C45782662C02C33B00EBD728 /* ContentView.swift in Sources */,
+				C45782902C02C54700EBD728 /* NutritionView.swift in Sources */,
+				C45782992C02E4E500EBD728 /* WorkoutDetailView.swift in Sources */,
+				C45A74882C20039F00979EC7 /* ExerciseSelectionView.swift in Sources */,
+				C45782642C02C33B00EBD728 /* VitalWellnessPro.swift in Sources */,
+				C45782942C02CFD900EBD728 /* WorkoutCreationView.swift in Sources */,
+				C457828E2C02C52B00EBD728 /* FitnessView.swift in Sources */,
+				C45A74842C1FFDA000979EC7 /* DataManager.swift in Sources */,
+				C45782922C02C55D00EBD728 /* UserInfoView.swift in Sources */,
+				C45A74862C1FFDEF00979EC7 /* Models.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C457826C2C02C33C00EBD728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45782752C02C33C00EBD728 /* Fitness___NutritionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C45782762C02C33C00EBD728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45782812C02C33C00EBD728 /* Fitness___NutritionUITestsLaunchTests.swift in Sources */,
+				C457827F2C02C33C00EBD728 /* Fitness___NutritionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C45782722C02C33C00EBD728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C457825F2C02C33B00EBD728 /* Vital Wellness Pro */;
+			targetProxy = C45782712C02C33C00EBD728 /* PBXContainerItemProxy */;
+		};
+		C457827C2C02C33C00EBD728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C457825F2C02C33B00EBD728 /* Vital Wellness Pro */;
+			targetProxy = C457827B2C02C33C00EBD728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C45782822C02C33C00EBD728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45782832C02C33C00EBD728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45782852C02C33C00EBD728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness + Nutrition/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7W4N6B26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitalWellnessPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45782862C02C33C00EBD728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fitness + Nutrition/Preview Content\"";
+				DEVELOPMENT_TEAM = 8Q7W4N6B26;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VitalWellnessPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C45782882C02C33C00EBD728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7W4N6B26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ics4u.Fitness---NutritionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vital Wellness Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vital Wellness Pro";
+			};
+			name = Debug;
+		};
+		C45782892C02C33C00EBD728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7W4N6B26;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ics4u.Fitness---NutritionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Vital Wellness Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Vital Wellness Pro";
+			};
+			name = Release;
+		};
+		C457828B2C02C33C00EBD728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7W4N6B26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ics4u.Fitness---NutritionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness + Nutrition";
+			};
+			name = Debug;
+		};
+		C457828C2C02C33C00EBD728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Q7W4N6B26;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ics4u.Fitness---NutritionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fitness + Nutrition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C457825B2C02C33B00EBD728 /* Build configuration list for PBXProject "Vital Wellness Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45782822C02C33C00EBD728 /* Debug */,
+				C45782832C02C33C00EBD728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45782842C02C33C00EBD728 /* Build configuration list for PBXNativeTarget "Vital Wellness Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45782852C02C33C00EBD728 /* Debug */,
+				C45782862C02C33C00EBD728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45782872C02C33C00EBD728 /* Build configuration list for PBXNativeTarget "Vital Wellness ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45782882C02C33C00EBD728 /* Debug */,
+				C45782892C02C33C00EBD728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C457828A2C02C33C00EBD728 /* Build configuration list for PBXNativeTarget "Vital Wellness ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C457828B2C02C33C00EBD728 /* Debug */,
+				C457828C2C02C33C00EBD728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C45782582C02C33B00EBD728 /* Project object */;
+}
